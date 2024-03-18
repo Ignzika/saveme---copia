@@ -1,0 +1,24 @@
+
+/* .p-3 {
+    flex-wrap: wrap;
+    position: relative;
+    height: 100vh;
+    border: 1px;
+    overflow: auto;
+} */
+
+
+.pCart{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 
+    repeat( 
+        auto-fit, 
+        minmax(150px, 1fr)
+        );
+    gap: 1rem;
+}

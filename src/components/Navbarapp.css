@@ -1,0 +1,42 @@
+.customNav {
+display:  flex;
+justify-content:space-around;
+align-content: center;
+    gap: 2rem;
+    background-color: rgb(74, 152, 71);
+    height: 70px;
+}
+.linkers{
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 3rem;
+  
+}
+ .linkers > a > div:hover {
+  color: #0f471f;
+ }
+  
+
+.customNav p {
+    justify-self: center;
+    align-self: center;
+    font-size: 1.2rem;
+    
+}
+.navBarImg {
+    max-width: max-content;
+    height: 40px;
+}
+
+.titleNavbar {
+    font-size: x-small !important
+}
+
+.BigNav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}

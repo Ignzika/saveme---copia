@@ -1,0 +1,22 @@
+.LogInView {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+
+.pLogin form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pInputMail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+.mainScreen
+{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 
+    repeat( 
+        auto-fit, 
+        minmax(150px, 1fr)
+        );
+    gap: 1rem;
+}
+
+
+.dataUser, ListOfOrders{
+    height: 140px;
+    font-size: 1rem;
+}
+
+.favo{
+    background-color: rgba(14, 91, 48);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.dataViewUser{
+    margin: 3px;
+    padding: 3px;
+    border: 5px solid rgb(14, 91, 48);
+    border-radius: 16px;
+    
+    display: grid;
+    grid-template-columns: 
+    repeat( 
+        auto-fit, 
+        minmax(150px, 1fr)
+        );
+    gap: 1rem;
+}
+
+
+.pBoxRegister{
+    display: flex;
+justify-content: center;
+}

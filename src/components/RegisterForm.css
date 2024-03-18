@@ -1,0 +1,65 @@
+.pPersonalContainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100vw;
+}
+
+.pFormReg{
+    border: solid rgb(47, 152, 105) 2px;
+    width: 60%;
+    display:  flex;
+    align-items: center;
+}
+label{
+    font-size: 0.9rem;
+}
+.pInputs {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pInputs input{
+    width: 11rem;
+    align-self: center;
+}
+
+.pInptDate{
+    font-size: 1rem;
+}
+.text-muted{
+    font-size: 0.8rem;
+    width: 50%;
+}
+
+.pPasword{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 0.8rem;
+
+}
+
+/* .pBox{
+    display: flex;
+
+} */
+
+#password, #password2{
+    width: 30%;
+}
+
+
+.pUpdateContainer .pFormReg{
+    width: 50rem;
+    display:  flex;
+    align-items: center;
+}
+.pUpdateContainer .pBox .pPasword{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+    justify-content: space-evenly;
+}

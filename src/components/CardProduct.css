@@ -1,0 +1,73 @@
+.cardCss{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1rem;
+
+}
+.card-title{
+    font-size: 0.9em;
+}
+
+.card-body{
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
+    align-self: center;
+    font-size: 0.8rem;
+}
+
+
+.card-img-top{
+    overflow: hidden;
+    height: 150%;
+    width: 150%;
+    border-radius: 16% ;
+    border: 2px solid black ;
+}
+
+.cardCss button{
+    font-size: 1rem;
+    border-radius: 18;
+    width: 25%;
+    border: 2px solid black ;
+
+}
+
+.pCorazon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+}
+
+.pBtn{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+    width: 85%;
+}
+.pBtn button{
+    font-size: 0.7rem;
+}
+
+.customAddMinus{
+    width: 50%;
+    font: 700;
+    font-size: 1.8rem;
+}
+.customContainerCard{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.pDesc{
+    font-size: 0.7rem;
+}

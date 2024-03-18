@@ -1,0 +1,23 @@
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* background-image: url('./assets/img/fondocardback.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-color: rgb(244, 242, 216);
+  color: rgb(42, 63, 62);
+  text-align: center;
+  font-size: 1.3em;
+  display: block;
+  overflow-y: auto;
+  }
+
+p{
+  margin: 0px;
+}
